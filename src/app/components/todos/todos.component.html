@@ -1,0 +1,8 @@
+<app-add-todo (addTod0)="addTodo($event)"></app-add-todo>
+<app-todo-item *ngFor="let todo of todos" [tod0]="todo" (deleteTod0)="deleteTodo($event)">
+</app-todo-item>
+
+<ul *ngFor="let local of localy">
+    <li>{{local.name}}</li>
+</ul>
+<h1>HI</h1>
